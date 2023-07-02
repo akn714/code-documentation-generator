@@ -3,13 +3,13 @@
 
 # imports
 from flask import Flask, jsonify, request
-from flask_limiter import Limiter
-from flask_limiter.util import get_remote_address
+# from flask_limiter import Limiter
+# from flask_limiter.util import get_remote_address
 from generator import generate
 
 # web app
 app = Flask(__name__)
-limiter = Limiter(app, key_func=get_remote_address)
+# limiter = Limiter(app, key_func=get_remote_address)
 
 # keep alive
 @app.route('/')
@@ -22,7 +22,7 @@ def index():
 
 # API endpoint
 @app.route('/api/generate', methods=['POST'])
-@limiter.limit("2/minute")  # Set the rate limit to 10 requests per minute
+# @limiter.limit("2/minute")  # Set the rate limit to 10 requests per minute
 def generate_doc():
     try:
         content_type = request.headers.get('Content-Type')
