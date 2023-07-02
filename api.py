@@ -10,15 +10,18 @@ def GPT_response(prompt, detailed=False, include_links=False):
         include_links=include_links
     )
 
-with open("query_prompt.txt", "r") as file:
-    prompt = file.read()
+
 
 # api endpoint
 @app.route('/api/generate', methods=['POST'])
 def docGen():
+    with open("prompt.txt", "r") as file:
+        prompt = file.read()
+    
     code = request.form['code']
     query = prompt+code
     response = GPT_response(query).text;
+    print(query, response)
     return response
 
 # running the server

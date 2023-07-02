@@ -13,5 +13,3 @@ Note: Feel free to provide additional details or explanations as needed to ensur
 Output: markdown
 
 Input:
-
-[YOUR_CODE_HERE]

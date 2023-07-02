@@ -8,5 +8,5 @@ def add(a, b):
 	return a + b
 """
 })
-# And done.
+
 print(r.text)  # displays the result body.
