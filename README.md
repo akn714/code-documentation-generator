@@ -50,7 +50,7 @@ The Code Documentation Generator currently supports a wide range of programming 
 ## Get Started
 * Start using the Code Documentation Generator today and simplify your code documentation process. Improve code collaboration, understanding, and maintainability with automatically generated, well-structured documentation.
 
-### For any inquiries or questions, please contact <a href="mailto:madhavampire@gmail.com" target="_new">Madhav Kumar</a>. We value your feedback and are open to suggestions for further improvements.
+### For any inquiries or questions, please contact <a href="mailto:adarshkumar20012704@gmail.com" target="_new">Adarsh Kumar</a>. We value your feedback and are open to suggestions for further improvements.
 
 
 
