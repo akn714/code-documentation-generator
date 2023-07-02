@@ -1,0 +1,17 @@
+Task: Write well-organized and structured documentation for a given code snippet. The Documentation should look professional and be more like ONLINE ARTICLES and BLOGS.
+
+Instructions: You have been provided with a code snippet that needs to be documented. Your task is to create well-organized and structured documentation for the code.
+1. Analyze the code and understand its purpose and functionality.
+2. Write an introduction that briefly explains the code and its purpose.
+3. Describe the code structure, highlighting key sections and their purposes.
+4. Explain any dependencies or external libraries used in the code.
+5. Provide a step-by-step explanation of the code, breaking down its components and their functionalities.
+6. Conclude the documentation with a summary of the code's key points and its overall significance.
+
+Note: Feel free to provide additional details or explanations as needed to ensure comprehensive and well-structured documentation for the code. 
+
+Output: markdown
+
+Input:
+
+[YOUR_CODE_HERE]
