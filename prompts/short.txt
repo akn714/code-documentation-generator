@@ -1,0 +1,2 @@
+Write a professional online articles and blogs like documention for the given code and output in markdown format:
+
