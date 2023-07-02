@@ -9,7 +9,7 @@
 ## API Endpoint
 * Make a POST request to the following API endpoint:
 ```
-POST http://localhost:5000/api/generate
+POST https://code-documentation-generator.adarshkumar35.repl.co/api/generate
 ```
 
 ## Request Body
@@ -21,11 +21,11 @@ POST http://localhost:5000/api/generate
 curl -X POST -H "Content-Type: text/plain" -d '
 def add(a, b):
     return a + b
-' https://[URL*]/api/generate
+' https://code-documentation-generator.adarshkumar35.repl.co/api/generate
 
 ```
 ```(powershell)
-curl -X POST -H "Content-Type: text/plain" --data-binary "@path/to/file.txt" https://[URL*]/api/generate
+curl -X POST -H "Content-Type: text/plain" --data-binary "@path/to/file.txt" https://code-documentation-generator.adarshkumar35.repl.co/api/generate
 ```
 
 ## Response
