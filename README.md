@@ -9,7 +9,7 @@
 ## API Endpoint
 * Make a POST request to the following API endpoint:
 ```
-POST http://localhost:5000/api/generate
+POST https://code-documentation-generator.adarshkumar35.repl.co/api/generate
 ```
 
 ## Request Body
@@ -21,11 +21,11 @@ POST http://localhost:5000/api/generate
 curl -X POST -H "Content-Type: text/plain" -d '
 def add(a, b):
     return a + b
-' https://[URL*]/api/generate
+' https://code-documentation-generator.adarshkumar35.repl.co/api/generate
 
 ```
 ```(powershell)
-curl -X POST -H "Content-Type: text/plain" --data-binary "@path/to/file.txt" https://[URL*]/api/generate
+curl -X POST -H "Content-Type: text/plain" --data-binary "@path/to/file.txt" https://code-documentation-generator.adarshkumar35.repl.co/api/generate
 ```
 
 ## Response
@@ -50,7 +50,7 @@ The Code Documentation Generator currently supports a wide range of programming 
 ## Get Started
 * Start using the Code Documentation Generator today and simplify your code documentation process. Improve code collaboration, understanding, and maintainability with automatically generated, well-structured documentation.
 
-### For any inquiries or questions, please contact <a href="mailto:madhavampire@gmail.com" target="_new">Madhav Kumar</a>. We value your feedback and are open to suggestions for further improvements.
+### For any inquiries or questions, please contact <a href="mailto:adarshkumar20012704@gmail.com" target="_new">Adarsh Kumar</a>. We value your feedback and are open to suggestions for further improvements.
 
 
 
