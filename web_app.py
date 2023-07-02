@@ -29,9 +29,9 @@ def generate_doc():
         if content_type == 'text/plain':
             data = request.get_data().decode('utf-8')
         elif content_type == 'application/json':
-            data = request.get_json()['text']
+            data = request.get_json()['code']
         elif content_type == 'application/x-www-form-urlencoded':
-            text = request.form.get('text')
+            data = request.form.get('code')
         else:
             return jsonify(
                 {
@@ -39,21 +39,24 @@ def generate_doc():
                 }
             ), 415
 
-        response = generate(code=data)
         return jsonify(
             {
-                'markdown': response
+                'markdown': generate(code=data)
             }
         )
 
-    except Exception as e:
-        error_message = str(e)
-        return jsonify({'error': error_message}), 500
+    except Exception as e: 
+        return jsonify(
+            {
+                'error_type': "SERVER SIDE",
+                'error': str(e)
+            }
+        ), 500
 
 
 # main function
 def start_web_server():
-    app.run(host="0.0.0.0", debug=True)
+    app.run(host="0.0.0.0", port="8080", debug=True)
 
 # Run the application
 if __name__ == '__main__':
