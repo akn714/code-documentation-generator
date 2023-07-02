@@ -1,0 +1,4 @@
+Flask==2.0.2
+Flask_Limiter==3.3.1
+gpt4free==1.0.2
+Requests==2.31.0
